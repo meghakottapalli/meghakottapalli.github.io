@@ -530,7 +530,7 @@
       <!-- CARD 1: RUGR FinTech -->
       <div class="pres-card reveal" style="cursor:pointer;" onclick="document.getElementById('pdfModal').classList.add('active')">
         <div class="pres-thumb">
-          <img src="./ppts/rugr-ppt-thumbnail.png" class="pres-thumb-img" alt="RUGR FinTech Presentation Thumbnail">
+          <img src="./ppts/rugr-ppt-thumbnail.webp" class="pres-thumb-img" alt="RUGR FinTech Presentation Thumbnail">
           <div class="pres-overlay"><span>Open Deck →</span></div>
         </div>
         <div class="pres-info">
@@ -540,23 +540,10 @@
         </div>
       </div>
 
-      <!-- CARD 2: Mahindra Rise -->
-      <div class="pres-card reveal" style="cursor:pointer;" onclick="document.getElementById('pdfModal2').classList.add('active')">
-        <div class="pres-thumb">
-          <img src="./ppts/mahindra-ppt-thumbnail.png" class="pres-thumb-img" alt="Mahindra Rise Presentation Thumbnail">
-          <div class="pres-overlay"><span>Open Deck →</span></div>
-        </div>
-        <div class="pres-info">
-          <div class="pres-category">Campaign Strategy</div>
-          <div class="pres-title">Mahindra Rise — Brand Launch</div>
-          <div class="pres-desc">End-to-end digital execution for a flagship product launch across social & performance channels.</div>
-        </div>
-      </div>
-
-      <!-- CARD 3: HDFC Life Retire100 -->
+           <!-- CARD 2: HDFC Life Retire100 -->
       <div class="pres-card reveal" style="cursor:pointer;" onclick="document.getElementById('pdfModal3').classList.add('active')">
         <div class="pres-thumb">
-          <img src="./ppts/hdfc-ppt-thumbnail.png" class="pres-thumb-img" alt="HDFC Life Retire100 Presentation Thumbnail">
+          <img src="./ppts/retire100-ppt-thumbnail.webp" class="pres-thumb-img" alt="HDFC Life Retire100 Presentation Thumbnail">
           <div class="pres-overlay"><span>Open Deck →</span></div>
         </div>
         <div class="pres-info">
@@ -566,16 +553,29 @@
         </div>
       </div>
 
-      <!-- CARD 4: Add Your New Presentation Here -->
+            <!-- CARD 3: Add Your New Presentation Here -->
       <div class="pres-card reveal" style="cursor:pointer;" onclick="document.getElementById('pdfModal4').classList.add('active')">
         <div class="pres-thumb">
-          <img src="./ppts/new-ppt-thumbnail.png" class="pres-thumb-img" alt="New Presentation Thumbnail">
+          <img src="./ppts/msrvantage-ppt-thumbnail.webp" class="pres-thumb-img" alt="New Presentation Thumbnail">
           <div class="pres-overlay"><span>Open Deck →</span></div>
         </div>
         <div class="pres-info">
-          <div class="pres-category">GTM Strategy</div>
-          <div class="pres-title">Lorem Ipsum — Dolor Sit Amet</div>
-          <div class="pres-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+          <div class="pres-category">GTM Strategy - Conversions</div>
+          <div class="pres-title">MSRVantage - Launch Plan</div>
+          <div class="pres-desc">MSRVantage is a B2B Saas-based product. With a high competitive environment in this segment with Big-4's in place, getting real with conversions was the key focus for this launch plan. </div>
+        </div>
+      </div>
+
+        <!-- CARD 4: Mahindra Rise -->
+      <div class="pres-card reveal" style="cursor:pointer;" onclick="document.getElementById('pdfModal2').classList.add('active')">
+        <div class="pres-thumb">
+          <img src="./ppts/mahindra-bolero-ppt-thumbnail.webp" class="pres-thumb-img" alt="Mahindra Rise Presentation Thumbnail">
+          <div class="pres-overlay"><span>Open Deck →</span></div>
+        </div>
+        <div class="pres-info">
+          <div class="pres-category">Campaign Strategy</div>
+          <div class="pres-title">Mahindra Rise — Bolero PikUp Launch</div>
+          <div class="pres-desc">TATA Ace capturing the market, the challenge was to launch the 1.7T load capacity Bolero PikUp. I suggested a WhatsApp & AI innovation campign</div>
         </div>
       </div>
 
@@ -608,16 +608,16 @@
   <div class="pdf-modal-overlay" id="pdfModal2" onclick="if(event.target===this)this.classList.remove('active')">
     <div class="pdf-modal-inner">
       <div class="pdf-modal-header">
-        <div class="pdf-modal-title">Mahindra Rise — Brand Launch</div>
+        <div class="pdf-modal-title">Mahindra Rise — Bolero PikUp Launch</div>
         <div class="pdf-modal-actions">
-          <a href="./assets/Mahindra_Rise_Brand_Launch.pdf" download class="btn btn-outline" style="font-size:10px;padding:9px 18px;">Download PDF</a>
+          <a href="./ppts/bolero-pickup-campaign.pdf" download class="btn btn-outline" style="font-size:10px;padding:9px 18px;">Download PDF</a>
           <button class="pdf-modal-close" onclick="document.getElementById('pdfModal2').classList.remove('active')">✕ Close</button>
         </div>
       </div>
       <iframe
         class="pdf-modal-frame"
-        src="./assets/Mahindra_Rise_Brand_Launch.pdf"
-        title="Mahindra Rise Brand Launch">
+        src="./ppts/bolero-pickup-campaign.pdf"
+        title="Bolero PikUp Launch">
       </iframe>
       <div class="pdf-modal-footer">
         <span class="pdf-modal-meta">Campaign Strategy · Mahindra Rise</span>
@@ -632,13 +632,13 @@
       <div class="pdf-modal-header">
         <div class="pdf-modal-title">HDFC Life — Retire100</div>
         <div class="pdf-modal-actions">
-          <a href="./assets/HDFC_Life_Retire100.pdf" download class="btn btn-outline" style="font-size:10px;padding:9px 18px;">Download PDF</a>
+          <a href="./ppts/retire100-case-study.pdf" download class="btn btn-outline" style="font-size:10px;padding:9px 18px;">Download PDF</a>
           <button class="pdf-modal-close" onclick="document.getElementById('pdfModal3').classList.remove('active')">✕ Close</button>
         </div>
       </div>
       <iframe
         class="pdf-modal-frame"
-        src="./assets/HDFC_Life_Retire100.pdf"
+        src="./ppts/retire100-case-study.pdf"
         title="HDFC Life Retire100">
       </iframe>
       <div class="pdf-modal-footer">
@@ -654,13 +654,13 @@
       <div class="pdf-modal-header">
         <div class="pdf-modal-title"><!-- Your Presentation Title --></div>
         <div class="pdf-modal-actions">
-          <a href="./ppts/your-presentation.pdf" download class="btn btn-outline" style="font-size:10px;padding:9px 18px;">Download PDF</a>
+          <a href="./ppts/msrvantage-launch-plan.pdf" download class="btn btn-outline" style="font-size:10px;padding:9px 18px;">Download PDF</a>
           <button class="pdf-modal-close" onclick="document.getElementById('pdfModal4').classList.remove('active')">✕ Close</button>
         </div>
       </div>
       <iframe
         class="pdf-modal-frame"
-        src="./ppts/your-presentation.pdf"
+        src="./ppts/msrvantage-launch-plan.pdf"
         title="Your Presentation">
       </iframe>
       <div class="pdf-modal-footer">
@@ -671,7 +671,7 @@
   </div>
 
   <hr class="divider" />
-
+  
   <!-- BLOG -->
   <!--
     HOW TO ADD A NEW BLOG POST:
